@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.16.0",
+    "esbuild-css-modules-plugin": "^2.7.0",
+    "karma": "^6.4.1",
+    "karma-esbuild": "^2.2.5",
+    "karma-jasmine": "^5.1.0"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "build": "node build.js"
+  }
+}
